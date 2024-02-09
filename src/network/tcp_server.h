@@ -10,16 +10,23 @@
 
 typedef struct
 {
+    /// @brief Address of connection
     struct sockaddr_in *addr;
+    /// @brief TCP file descriptor
     SOCK_FD conn_fd;
 } connection_t;
 
 typedef struct
 {
+    /// @brief TCP port number
     uint32_t port;
+    /// @brief Number of workers
     uint32_t workers;
+    /// @brief Socket file descriptor
     SOCK_FD sock_fd;
+    /// @brief Thread pool object
     threadpool pool;
+    /// @brief TCP connection handler
     void *connection_handler;
 } tcp_server_t;
 
