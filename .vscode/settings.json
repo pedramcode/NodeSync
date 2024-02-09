@@ -1,0 +1,19 @@
+{
+  "editor.defaultFormatter": "ms-vscode.cpptools",
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "arg.h": "c",
+    "stdlib.h": "c",
+    "stdint.h": "c",
+    "stdio.h": "c",
+    "page_allocator.h": "c",
+    "tcp_server.h": "c",
+    "inet.h": "c",
+    "cstdlib": "c",
+    "malloc.h": "c",
+    "timesize.h": "c",
+    "in.h": "c",
+    "argp.h": "c",
+    "thpool.h": "c"
+  }
+}

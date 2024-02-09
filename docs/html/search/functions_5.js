@@ -1,0 +1,15 @@
+var searchData=
+[
+  ['list_5fappend_0',['list_append',['../list_8h.html#a2a48b5e03e3605a1a3ffe7a8ae0d8b0a',1,'list_append(list_t *list,...):&#160;list.c'],['../list_8c.html#a2a48b5e03e3605a1a3ffe7a8ae0d8b0a',1,'list_append(list_t *list,...):&#160;list.c']]],
+  ['list_5fat_1',['list_at',['../list_8c.html#a4eadb779bae5942ee74059343b61ef5c',1,'list_at(list_t *list, unsigned int index):&#160;list.c'],['../list_8h.html#a4eadb779bae5942ee74059343b61ef5c',1,'list_at(list_t *list, unsigned int index):&#160;list.c']]],
+  ['list_5ffree_2',['list_free',['../list_8c.html#a6ef4cba021252bced096de8f4a26f11e',1,'list_free(list_t *list):&#160;list.c'],['../list_8h.html#a6ef4cba021252bced096de8f4a26f11e',1,'list_free(list_t *list):&#160;list.c']]],
+  ['list_5finit_3',['list_init',['../list_8c.html#a64a6cd5113b244ee9fd5e063d2ff80f9',1,'list_init(enum type_enum type):&#160;list.c'],['../list_8h.html#a64a6cd5113b244ee9fd5e063d2ff80f9',1,'list_init(enum type_enum type):&#160;list.c']]],
+  ['list_5fremove_5fat_4',['list_remove_at',['../list_8c.html#abfe718ef8078281b7cfccb73a304331f',1,'list_remove_at(list_t *list, unsigned int index):&#160;list.c'],['../list_8h.html#abfe718ef8078281b7cfccb73a304331f',1,'list_remove_at(list_t *list, unsigned int index):&#160;list.c']]],
+  ['log_5fadd_5fcallback_5',['log_add_callback',['../log_8c.html#a4196855e1cd42700557b6e4fa0715a35',1,'log_add_callback(log_LogFn fn, void *udata, int level):&#160;log.c'],['../log_8h.html#a4196855e1cd42700557b6e4fa0715a35',1,'log_add_callback(log_LogFn fn, void *udata, int level):&#160;log.c']]],
+  ['log_5fadd_5ffp_6',['log_add_fp',['../log_8c.html#afcf2da85fa8a21494dc461d546c50e4b',1,'log_add_fp(FILE *fp, int level):&#160;log.c'],['../log_8h.html#afcf2da85fa8a21494dc461d546c50e4b',1,'log_add_fp(FILE *fp, int level):&#160;log.c']]],
+  ['log_5flevel_5fstring_7',['log_level_string',['../log_8c.html#a10736458177293d86f211aadeff89501',1,'log_level_string(int level):&#160;log.c'],['../log_8h.html#a10736458177293d86f211aadeff89501',1,'log_level_string(int level):&#160;log.c']]],
+  ['log_5flog_8',['log_log',['../log_8c.html#ac008ecbde449b2dd1bc4f8671d9a0e07',1,'log_log(int level, const char *file, int line, const char *fmt,...):&#160;log.c'],['../log_8h.html#ac008ecbde449b2dd1bc4f8671d9a0e07',1,'log_log(int level, const char *file, int line, const char *fmt,...):&#160;log.c']]],
+  ['log_5fset_5flevel_9',['log_set_level',['../log_8c.html#af2493e94f152a28b2ba4e3a2e2bba65d',1,'log_set_level(int level):&#160;log.c'],['../log_8h.html#af2493e94f152a28b2ba4e3a2e2bba65d',1,'log_set_level(int level):&#160;log.c']]],
+  ['log_5fset_5flock_10',['log_set_lock',['../log_8c.html#a18259d7b87158a91089fd1d081617715',1,'log_set_lock(log_LockFn fn, void *udata):&#160;log.c'],['../log_8h.html#a18259d7b87158a91089fd1d081617715',1,'log_set_lock(log_LockFn fn, void *udata):&#160;log.c']]],
+  ['log_5fset_5fquiet_11',['log_set_quiet',['../log_8c.html#a6de5d12252f1b48279d28769b7c130eb',1,'log_set_quiet(bool enable):&#160;log.c'],['../log_8h.html#a6de5d12252f1b48279d28769b7c130eb',1,'log_set_quiet(bool enable):&#160;log.c']]]
+];
