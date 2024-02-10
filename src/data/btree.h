@@ -35,4 +35,9 @@ btree_node_t *btree_init(enum comparable_type_enum type, uint32_t max_keys);
 /// @param btree Pointer to btree_node_t
 void btree_free(btree_node_t *btree);
 
+/// @brief Inserts a new value to the tree
+/// @param btree Pointer to btree_node_t
+/// @param value Any value that matched the tree type
+void btree_insert(btree_node_t *btree, ...);
+
 #endif
