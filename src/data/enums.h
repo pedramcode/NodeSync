@@ -13,4 +13,14 @@ enum type_enum
     typ_ptr
 };
 
+/// @brief Types used in generic data structures (Comparables)
+enum comparable_type_enum
+{
+    typ_integer,
+    typ_unsigned_integer,
+    typ_float,
+    typ_double,
+    typ_bool,
+};
+
 #endif

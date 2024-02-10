@@ -9,7 +9,7 @@
 /// @brief B-Tree node structure
 typedef struct btree_node_struct
 {
-    enum type_enum type;
+    enum comparable_type_enum type;
     union btree_type
     {
         int t_integer;
@@ -17,8 +17,6 @@ typedef struct btree_node_struct
         float t_float;
         double t_double;
         bool t_bool;
-        char *t_str;
-        void *t_ptr;
     } *keys;
     uint32_t current_keys;
     uint32_t max_keys;
@@ -31,15 +29,10 @@ typedef struct btree_node_struct btree_node_t;
 /// @param type Type of node (enum type_enum)
 /// @param max_keys Number of max keys in a node
 /// @return Pointer of btree_node_t
-btree_node_t *btree_init(enum type_enum type, uint32_t max_keys);
+btree_node_t *btree_init(enum comparable_type_enum type, uint32_t max_keys);
 
 /// @brief Frees a b-tree node
 /// @param btree Pointer to btree_node_t
 void btree_free(btree_node_t *btree);
-
-/// @brief Set the b-tree key
-/// @param btree Pointer of btree_node_t
-/// @param value Any value that matches the btree type
-void btree_insert_key(btree_node_t *btree, ...);
 
 #endif
