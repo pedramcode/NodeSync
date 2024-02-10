@@ -9,7 +9,7 @@
 
 tcp_server_t *tcp_server_init(uint32_t port, uint32_t workers, void *connection_handler)
 {
-    tcp_server_t *server = malloc(sizeof(tcp_server_t));
+    tcp_server_t *server = calloc(1, sizeof(tcp_server_t));
     server->port = port;
     server->workers = workers;
     server->pool = thpool_init(64);

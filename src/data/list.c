@@ -38,7 +38,7 @@ void __resize_list(list_t *list, int n_page)
 
 list_t *list_init(enum type_enum type)
 {
-    list_t *list = malloc(sizeof(list_t));
+    list_t *list = calloc(1, sizeof(list_t));
     list->type = type;
     pthread_mutex_init(&list->mutex, NULL);
     list->length = 0;

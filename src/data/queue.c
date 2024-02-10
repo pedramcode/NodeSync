@@ -4,7 +4,7 @@
 
 queue_t *queue_init()
 {
-    queue_t *queue = malloc(sizeof(queue_t));
+    queue_t *queue = calloc(1, sizeof(queue_t));
     if (queue == NULL)
     {
         // Unable to allocate;

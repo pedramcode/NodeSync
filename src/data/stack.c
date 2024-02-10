@@ -4,7 +4,7 @@
 
 stack_t *stack_init()
 {
-    stack_t *stack = malloc(sizeof(stack_t));
+    stack_t *stack = calloc(1, sizeof(stack_t));
     if (stack == NULL)
     {
         // Unable to allocate;

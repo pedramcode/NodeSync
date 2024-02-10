@@ -1,6 +1,7 @@
 {
   "editor.defaultFormatter": "ms-vscode.cpptools",
   "editor.formatOnSave": true,
+  "C_Cpp.default.cStandard": "c99",
   "files.associations": {
     "arg.h": "c",
     "stdlib.h": "c",
@@ -14,6 +15,9 @@
     "timesize.h": "c",
     "in.h": "c",
     "argp.h": "c",
-    "thpool.h": "c"
+    "thpool.h": "c",
+    "enums.h": "c",
+    "time.h": "c",
+    "stdarg.h": "c"
   }
 }

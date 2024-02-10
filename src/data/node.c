@@ -6,7 +6,7 @@
 
 node_t *node_init(enum type_enum type, ...)
 {
-    node_t *node = malloc(sizeof(node_t));
+    node_t *node = calloc(1, sizeof(node_t));
     if (node == NULL)
     {
         // Unable to allocate;

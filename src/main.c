@@ -7,6 +7,7 @@
 
 #include "settings.h"
 #include "network/tcp_server.h"
+#include "data/btree.h"
 
 static char doc[] = "Node Sync platform";
 const char *argp_program_version = "Node Sync 0.1.0";
@@ -89,6 +90,15 @@ void *__handler(void *conn_ptr)
 
 int main(int argc, char *argv[])
 {
+    // ========== Test ==========
+    btree_node_t *n1 = btree_init(typ_integer, 3);
+    btree_set_key(n1, 0, 10);
+    btree_set_key(n1, 1, 20);
+    btree_set_key(n1, 2, 30);
+
+    btree_free(n1);
+
+    // ========== Server ==========
     settings_t settings;
     settings.node_name = NULL;
 
