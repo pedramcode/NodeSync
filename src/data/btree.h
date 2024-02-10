@@ -18,7 +18,7 @@ typedef struct btree_node_struct
         double t_double;
         bool t_bool;
     } *keys;
-    uint32_t current_keys;
+    uint32_t current_key;
     uint32_t max_keys;
     struct btree_node_struct **children;
 };
